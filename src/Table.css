@@ -1,0 +1,6 @@
+.table{
+    display: flex;
+    justify-content: center;
+    background-color: #864f4f;
+    color: white;
+}
