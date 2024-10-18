@@ -1,0 +1,34 @@
+.header{
+    background-color: rgb(250 188 63);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.cont{
+    display: flex;
+    padding: 10px;
+    justify-content:space-evenly;
+    gap: 15px;
+    position: relative;
+    right:80px;
+}
+
+.cont p{
+    cursor: pointer;
+    
+}
+
+.cont p:hover{
+    font-weight: 900;
+    color: rgb(125, 110, 110);
+}
+
+.logo{
+    padding: 15px;
+    margin: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+

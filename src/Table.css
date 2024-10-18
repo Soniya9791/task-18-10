@@ -1,6 +1,37 @@
-.table{
+.container{
     display: flex;
     justify-content: center;
-    background-color: #864f4f;
+}
+
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table thead {
+    background-color: #000;
     color: white;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table td {
+    vertical-align: middle;
 }

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+
+}
+.comp{
+    font-size: 35px;
+
+}
+.lead{
+    font-size: 30px;
+    color: #fabc3f
+}
+.contant{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+.contant p{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

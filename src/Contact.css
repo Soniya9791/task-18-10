@@ -1,0 +1,10 @@
+.getslogs{font-size: 23px;
+    text-align: center;
+}
+.grey{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+}

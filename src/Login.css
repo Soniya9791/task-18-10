@@ -1,17 +1,25 @@
-.data{
+.container{
+    width: 100%;
+    height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 182px;
+    
+}
+
+.data{
+    display: flex;
+}
+
+.TextIput{
+    display: flex;
     flex-direction: column;
-    color: aliceblue;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
-#username{
-    padding: 10px;
-    margin: 20px;
-}
-#password{
-    padding: 10px;
-    margin: 20px;
+
+.TextIput label{
+    padding-bottom: 10px;
 }

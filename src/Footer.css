@@ -1,0 +1,26 @@
+.container1{
+    background-color: rgb(250 188 63);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+} 
+    .getslog{
+        width: 79%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+.bold{
+    font-size: 30px;
+}
+.get{
+    width: 20%;
+}
+.pages{
+    width: 20%;
+}
+.logo1{
+    width: 50%;
+}

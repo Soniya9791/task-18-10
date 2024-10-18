@@ -4,8 +4,8 @@ import "./Table.css";
 function Table() {
   return (
     <div>
-      <div className='table'>
-        <table>
+      <div className='container'>
+        <table className='table'>
           <thead>
             <tr>
               <th>S.NO</th>
